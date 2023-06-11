@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Myint Myat Maung's FirstPortfolio</title>
+	<!---custom css link---->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+	<!------scroll bar(part)------>
+	<nav class="nav_links">
+		<a href="#" class="logo"><span class="title">Portfolio </span></a>
+		<ul class="navlist">
+			<li><a href="#home" >Home</a></li>
+			<li><a href="#about">About Me</a></li>
+			<li><a href="#services">Education</a></li>
+			<li><a href="#portfolio">My Role Model</a></li>
+			<li><a href="#contact">Contact</a></li>
+		</ul>
+		<label for="toggler"><a href="#home"> <i class='bx bx-menu' ></i> </a>
+		</label>
+	</nav>
+
+	<script>
+        const nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY >= 100) {
+                nav.classList.add('active_nav');
+            } else {
+                nav.classList.remove('active_nav');
+            }
+        })
+    </script>
+
+	<!---------introduction and (part)--------------->
+	<section class="home" id="home">
+		<div class="home-text">
+			<div class="slide">
+				<span class="one">Hello</span>
+				<span class="two">My name is</span>
+			</div>
+			<h1>Myint Myat Maung</h1>
+			<h3>Gusto University <span>student</span></h3>
+		</div>
+	</section>
+
+
+	<!---------about Section --------------->
+	<section class="about">
+		<div class="about-img">
+			<img src="animeprofile.png">
+		</div>
+
+		<div class="about-text">
+			<h2 >About <span class="about-me">Me</span></h2>
+			<h4>Computing Student!</h4>
+			<p>  This is my first portfolio using Html and Css. I'm 19 years old. I'm been learing about web development for 1 months at Gusto. My aim is to create game that is 
+				full of Myanmar tradition and cultures. When I started playing video games, 
+				I always wanted to know how they created them and  I always wanted to try one. By the way, I'm camera shy and don't want
+				to upload my post on any social media.
+			</p>
+				<a href="#contact" class="btn">Let's meet</a>
+		</div>
+	</section>
+
+	<!--Things I like to do-->
+	<section class="services" id="about">
+		<div class="main-text">
+			<h2><span>Things </span>I like to do</h2>
+		</div>
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-football bx-flip-horizontal' style='color:rgba(240, 221, 10, 0.93)'></i>
+				</div>
+				<h3>Playing Football</h3>
+				<p>I've played School Football Tournament in high-school two times and we got first match as a third place.
+					And second match lost in first group stage. Now, I haven't played football with friends or strangers 
+					for a long time. Should I train again?	  
+				</p>
+				<a href="#contact" class="btn">Wanna Play Together</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-tv bx-flip-horizontal' style='color:rgba(240, 221, 10, 0.93)' ></i>
+				</div>
+				<h3>Watching TV series</h3>
+				<p>
+					Normally, I like going outside to chill. But during pandemic, I had so much free time and started watching 
+					'Breaking Bad' TV serie. After that I usually watch good TV series or sometimes anime that I haven't watched every weekend.
+				</p>
+				<a href="#contact" class="btn">Series Suggestions</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bxs-music' style='color:rgba(240, 221, 10, 0.93)' ></i>
+				</div>
+				<h3>Listening To music</h3>
+				<p>
+					My favorite music genres are Rap and Synth-pop synthwave. I usually listen to music 
+					when I'm cleaning my room and doing exercise and practising English. My favorite artists are 
+					Kendrick Lamar, Eminem, The Weeknd and Post Malone.
+
+				</p>
+				<a href="#contact" class="btn">Songs Suggestions</a>
+			</div>
+		</div>
+		<!--Two group-->
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bxs-game bx-fade-right' style='color:rgba(240, 221, 10, 0.93)' ></i>
+					<i class='bx bx-game bx-fade-right' style='color:rgba(240, 221, 10, 0.93)' ></i>
+					<i class='bx bxs-game bx-fade-right' style='color:rgba(240, 221, 10, 0.93)' ></i>
+				</div>
+				<h3>Playing Video Games</h3>
+				<p>
+					I like to play person action-adventure video game but I'm down for two player games.
+					As I remembered, I started playing video games at Third Grade. Video game that I first played is Spy vs. Spy (PS2).
+					My favorite video games of all time is  <br>God Of War.</br>
+				</p>
+				<a href="#contact" class="btn">Wanna Play Together</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bxs-group' style='color:rgba(240, 221, 10, 0.93)' ></i>
+					<i class='bx bxs-group' style='color:rgba(240, 221, 10, 0.93)' ></i>
+					<i class='bx bx-group' style='color:rgba(240, 221, 10, 0.93)' ></i>
+				</div>
+				<h3>Hang out with Friends</h3>
+				<p>
+					When we're with our friends, we can share topics and goofing around. But we have to know,
+					that are we in the right group. <br> </br> <br> </br>
+				</p>
+				<a href="#contact" class="btn">Meet in person</a>
+			</div>
+		</div>
+	</section>
+
+	<!--My favorite games-->
+	<section class="portfolio">
+		<div class="main-text">
+			<h2> My <span>Favorite Games</span></h2>
+		</div>
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="GodOfWar.jpg" >
+				<div class="layer">
+					<h4>God of War Ragnarok</h4>
+					<p> Kratos and Atreus must journey to each of the Nine Realms 
+						in search of answers as Asgardian forces prepare for a prophesied battle that will end the world. </p>
+					<a href="https://www.playstation.com/en-us/games/god-of-war-ragnarok/"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+	
+			<div class="row">
+				<img src="fifa12.webp" >
+				<div class="layer">
+					<h4>FIFA 12</h4>
+					<p>
+						FIFA 12 is a football simulation game that has been developed by EA Canada and is published 
+						by EA Sports. It is the 19th game in the world acclaimed FIFA series. 
+					</p>
+					<a href="https://fifa-12.en.softonic.com/"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+	
+			<div class="row">
+				<img src="spyVspy.jpg" >
+				<div class="layer">
+					<h4>Spy vs. Spy</h4>
+					<p>The game is to collect various secret items in a briefcase and exit the building 
+						through a door to the airport, either before the opposing player exits or before the timer runs out.
+						 While searching for items, traps can be laid to kill enemy.</p>
+					<a href="https://oldgamesdownload.com/spy-vs-spy-2005/"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+	
+			<div class="row">
+				<img src="godHand.jpg" >
+				<div class="layer">
+					<h4>God Hand</h4>
+					<p class="bolding">The game mixes western and Japanese-themed comedy, containing over-the-top characters and storyline events.
+						 The plot follows a martial artist protecting  wielding
+						 a legendary divine arm called the "God Hand," to save the world from demons.</p>
+					<a href="https://coolrom.com.au/roms/ps2/41906/God_Hand.php"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+	<!--My aims-->
+	<section class="services">
+		<div class="main-text">
+			<h2>My <span>Aim </span></h2>
+		</div>
+		<div class="services-content">
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-gas-pump' style='color:rgba(240, 221, 10, 0.93)' ></i>
+					<i class='bx bxs-game' style='color:rgba(240, 221, 10, 0.93)' ></i>
+				</div>
+				<h3>To create video game</h3>
+				<p>
+					As I mentioned about, I want create video game that is related with Myanmar traditon and cultures.
+					But I have to study a lot. Right now, I already struggled with a lot of issues when I was creating
+					this website. I hope I'll be better at First Year Gusto Student.
+				</p>
+				<div>
+					<img src="creatingGame.jpg"/>
+					<img src="creatingGame2.jpg" style="margin-left: 20px;"/>
+				</div>
+				<a href="#contact" class="btn">Work Together?</a>
+			</div>
+
+			<div class="box">
+				<div class="s-icons">
+					<i class='bx bx-home' style='color:rgba(240, 221, 10, 0.93)' ></i>
+					<i class='bx bx-party'style='color:rgba(240, 221, 10, 0.93)' ></i>
+				</div>
+				<h3>To retire at 35</h3>
+				<p>
+					To be honest, I want to live my life without boss. When I'm 35, I'll quit my job and start my own 
+					company. And I'll expand my mother's own hostel and may be focus on investments and stocks and take care of my parents.
+				</p>
+				<div>
+					<img src="retirement1.jpg"/>
+					<img src="retirement3.jpg" style="margin-left: 20px;"/>
+				</div>
+				<a href="#contact" class="btn">Is a good plan?</a>
+			</div>
+		</div>
+	</section>
+	<!--My projects and experiences-->
+	<section class="portfolio">
+		<div class="main-text">
+			<h2> My <span>Projects or Experiences</span></h2>
+		</div>
+		<div class="portfolio-content">
+			<div class="row1">
+				<img src="PosterAssignment__Final__.jpg" >
+				<div class="layer-skills">
+					<h4>Digital Skill's Assignment</h4>
+					<p> 
+						This is my GUF-digital skill's Assignment created with Adobe Photoshop. 
+					</p>
+					<a href="https://moodle.gusto-education.com/login/forgot_password.php"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+	
+			<div class="row1">
+				<img src="skillEng.jpg">
+				<div class="layer-skills">
+					<h4>The Space Language Academy</h4>
+					<p>
+						I finished "Upper Intermediate" class at 2022 December. I don't think I have real
+						"Upper Intermediate" Eng Skill because I joined online class and the teacher didn't teach us
+						all the courses. But I got encourage to speak English. 
+					</p>
+					<a href="https://www.thespacelanguageacademy.com/"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+	
+			<div class="row1">
+				<img src="footbalPrize.jpg" >
+				<div class="layer-skills">
+					<h4>Fifth place in Tournament of Hlaing</h4>
+					<p>
+						We participated that tournament for fun. It was really fun and we made some friends.
+						It included over 10 teams and we lost before semi-final stage. 
+						<br>Contact me for fun matches👇</br>
+					</p>
+					<a href="#contact"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+	
+			<div class="row1">
+				<img src="runningGroup.jpg" >
+				<div class="layer-skills">
+					<h4>Group Running </h4>
+					<p>
+						When I was in Mawlamyine, there was always Running with Groups passing through
+						 my house at winter(around December). It was government plan or something because they always
+						 open that song "စောစောထ လို့ စောစော လမ်းလျှောက် ကြပါစို့" . One day, I joined that to make new friends may be girls.
+						 <br>More info about Mawlamyine 👇</br>
+					</p>
+					<a href="#contact"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+		</div>
+	
+	</section>
+	<!-----------My Education Section-------------->
+	<section class="services" id="services">
+		<div class="main-text">
+			<h2><span>My</span> Education</h2>
+		</div>
+		<div class="services-content">
+			<div class="box">
+				<h3>B.E.H.S [1]	Hlaing, Yangon</h3>
+				<div>
+					<img src="eightGrade.jpg"/>
+				</div>
+				<p>
+					I'm not a very smart student in high school. To be honest, I never paid attention to my teachers. 
+					I went to B.E.H.S [1] Hlaing until Ninth Grade. I had to move to Aunglan, Magway Region where my father lives
+					 because my mother had to move to Naypyiday, Capital of Myanmar at that time.
+					<br> </br>
+				</p>
+				<a href="https://www.edge.com.mm/listing/hlaing-b-e-h-s-1-2106.html" class="btn">About B.E.H.S [1]	Hlaing</a>
+			</div>
+
+			<div class="box">
+				<h3>B.E.H.S [1]	Aunglan, Magway</h3>
+				<div>
+					<img src="highschool.jpg">
+				</div>
+				<p>
+					I studied for Ninth Grade and Tenth Grarde at B.E.H.S [1] Aunglan. I studied regularly- 3 hours a day 
+					after I came back home from school. I finished High School in 2019-2020 batch(before Covid-19).
+					I thought I'll pass Tenth Grade with one Distinction(D) but I got
+					three Distinction(D) with 459 marks.
+				</p>
+				<a href="#contact" class="btn">Contact me for info </a>
+			</div>
+
+			<div class="box">
+				<h3>Gusto University, Timecity</h3>
+				<div class="gusto">
+					<img src="gusto.png">
+				</div>
+				<p>
+					After I finised high school, I didn't do anything that'll be useful in my life, such learning 
+					new languages or trying new things. But after I saw, all my friends're going to Japan and 
+					I realized I was so late in Education. So, for many reasons I joined Gusto University. And realized
+					again, I was like famous burmese quotes," ဝါလုံးခေါင်းထဲ လသာ ".
+				</p>
+				<a href="https://www.gusto.edu.mm/" class="btn">About Gusto University<menu></menu></a>
+			</div>
+		</div>
+
+	</section>
+
+<!-----------My admire person Section--------------->
+	<section class="portfolio" id="portfolio">
+		<div class="main-text">
+			<h2>My <span>Role Models</span></h2>
+		</div>
+		<div class="portfolio-content">
+			<div class="row">
+				<img src="elonmuskWithLayer1.jpg" >
+				<div class="layer">
+					<h2>Elon Musk</h2>
+					<p>
+						Elon Musk cofounded the electronic payment firm PayPal, and in 2002 he founded SpaceX, 
+						a company that makes rockets. He was a major early funder of Tesla, 
+						which makes electric cars and became its chief executive officer in 2008. 
+						He purchased Twitter in 2022.
+					</p>
+					<a href="#elonmusk"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+
+			<div class="row">
+				<img src="davidgogginsWithLayer.jpg" >
+				<div class="layer">
+					<h2>David Goggins</h2>
+					<p>
+						Goggins has completed over 60 ultra-marathons, triathlons, and ultra-triathlons, 
+						setting new course records and regularly placing in the top five. He once held 
+						the Guinness World Record for pull-ups completing 4,030 in 17 hours.</p>
+					<a href="#davidGoggins"> <i class='bx bx-link-external'></i></a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<section class="about1">
+		<div class="about-img1">
+			<img src="elonmuskAbout.webp">
+		</div>
+
+		<div class="about-text1" id="elonmusk">
+			<h2 ><span class="about-me"> Elon Musk </span></h2>
+			<h4>An Entrepreneur</h4>
+			<p>
+				He has so many titles such as the founder, CEO and chief engineer of SpaceX; angel investor, 
+				CEO and product architect of Tesla, Inc.; owner and CEO of Twitter, Inc.; founder of the Boring Company;
+			    co-founder of Neuralink and OpenAI;,so let's say he is an entrepreneur or investor.
+				<a href=https://www.investopedia.com/articles/personal-finance/061015/how-elon-musk-became-elon-musk.asp#:~:text=Elon%20Musk%20is%20the%20charismatic,of%20the%20social%20media%20company. class="btn">
+					His background and achievements</a> 
+				<br>He is the perfect example for "work hard and play hard". There is so many things we can learn from him. </br>
+			</p>
+			<a href="https://www.forbes.com/profile/elon-musk/?sh=2863c5ef7999" class="btn">If you want to know More About</a>
+		</div>
+	</section>
+	<section class="about" id="davidGoggins">
+		<div class="about-img">
+			<img src="davidgogginsAbout.jpg">
+		</div>
+
+		<div class="about-text">
+			<h2 ><span class="about-me"> David Goggins</span></h2>
+			<h4>American runner</h4>
+			<p> 
+				He is the perfect example for disciplined person. He is known for the toughest man alive in the world.
+				For David Goggins, his childhood was a nightmare -- poverty, prejudice, and physical abuse colored his days 
+				and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed
+				 himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of 
+				 the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL,
+				 Army Ranger, and Air Force Tactical Air Controller.
+			</p>
+			<a href="https://davidgoggins.com/" class="btn">If you want to know More About</a>
+		</div>
+	</section>
+	
+
+
+
+<!------------------Contact section------------>
+<section class="contact" id="contact">
+	<div class="contact-text">
+		<h2>Contact <span>Me!</span></h2>
+		<h4>If you have any project in your mind.</h4>
+			<div class="list">
+			<li><a href="#">09758210432</a></li>
+			<li><a href="#">alexisalexis.wy@gmail.com</a></li>
+		</div>
+
+		<div class="contact-icons">
+			<a href=""><i class='bx bxl-facebook'></i></a>
+			<a href=""><i class='bx bxl-telegram'></i></a>
+			<a href=""><i class='bx bxl-instagram-alt' ></i></a>
+			<a href=""><i class='bx bxl-youtube' ></i></a>
+		</div>
+
+	</div>
+	<div class="contact-form">
+		<form action="">
+			<input type="name" placeholder="Your Name " required>
+			<input type="email" placeholder="Your Email " required>
+			<input type="number" placeholder="Your Mobile Number" required>
+			<textarea name="" id="" cols="35" rows="10" placeholder="How Can I Help You " required></textarea>
+			<input type="submit" value="Send Message" class="submit" required>
+		</form>
+	</div>
+</section>
+
+<!---------End Section---------->
+<section class="end">
+	<div class="last-text">
+		<p>Ideas from Aaryan,Website Designer</p>
+	</div>
+	<div class="top">
+		<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+	</div>
+</section>
+
+</body>
+
+</html>
